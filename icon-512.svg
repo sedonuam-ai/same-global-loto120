@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#060616"/>
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="20%">
+      <stop offset="0%" stop-color="#0a1a4a"/>
+      <stop offset="100%" stop-color="#060616"/>
+    </radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+  <circle cx="256" cy="215" r="130" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.25"/>
+  <circle cx="138" cy="195" r="36" fill="#0d2060" stroke="#00d4ff" stroke-width="2.5"/>
+  <text x="138" y="203" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#00d4ff">07</text>
+  <circle cx="210" cy="160" r="36" fill="#0d2060" stroke="#ffcc00" stroke-width="2.5"/>
+  <text x="210" y="168" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#ffcc00">28</text>
+  <circle cx="256" cy="148" r="40" fill="#110030" stroke="#ff3d5a" stroke-width="3"/>
+  <text x="256" y="157" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#ff3d5a">★</text>
+  <circle cx="302" cy="160" r="36" fill="#0d2060" stroke="#c158ff" stroke-width="2.5"/>
+  <text x="302" y="168" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#c158ff">55</text>
+  <circle cx="374" cy="195" r="36" fill="#0d2060" stroke="#00e676" stroke-width="2.5"/>
+  <text x="374" y="203" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="#00e676">82</text>
+  <text x="256" y="305" text-anchor="middle" font-family="monospace" font-size="42" font-weight="900" fill="#00d4ff" filter="url(#glow)">SAME-GLOBAL</text>
+  <text x="256" y="342" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#3a4070" letter-spacing="5">LOTO 120</text>
+  <circle cx="196" cy="395" r="13" fill="#00d4ff" opacity="0.75"/>
+  <circle cx="226" cy="395" r="13" fill="#ffcc00" opacity="0.75"/>
+  <circle cx="256" cy="395" r="13" fill="#ff3d5a" opacity="0.75"/>
+  <circle cx="286" cy="395" r="13" fill="#c158ff" opacity="0.75"/>
+  <circle cx="316" cy="395" r="13" fill="#00e676" opacity="0.75"/>
+  <rect x="178" y="426" width="156" height="26" rx="13" fill="#00d4ff" opacity="0.12"/>
+  <text x="256" y="444" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#00d4ff" letter-spacing="2">9 × 120 GRILLES</text>
+</svg>
